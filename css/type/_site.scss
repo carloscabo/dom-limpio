@@ -1,0 +1,62 @@
+//
+// Default styles to the site
+// If you want to define some defaulst yo the whole site do it here
+
+// h1,
+.h1 {
+  $size: 36; // px
+  font-size: #{$size}px;
+  @if $config_add_rem_units {
+    font-size: #{$size/16}rem;
+  }
+  line-height: 120%;
+
+  // Responsive sample, you need to includeyour mixin
+  /*@include media($tablet) {
+    & {
+      font-size: 24px;
+    }
+  }*/
+}
+
+// h2,
+.h2 {
+  $size: 24; // px
+  font-size: #{$size}px;
+  @if $config_add_rem_units {
+    font-size: #{$size/16}rem;
+  }
+  line-height: 125%;
+}
+
+// h3,
+.h3 {
+  $size: 18; // px
+  font: normal 400 #{$size}px/130% Helvetica, Arial, sans-serif;
+  @if $config_add_rem_units {
+    font-size: #{$size/16}rem;
+  }
+}
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Responsive adjusetment in end
+
+//
+// Tablet
+//
+/*@include media($tablet) {
+
+}*/
+
+//
+// Mobile
+//
+/*@include media($mobile) {
+
+}*/

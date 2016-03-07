@@ -1,0 +1,131 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  // font-variant-ligatures: none;
+  // font-feature-settings: none;
+}
+
+//
+//
+// General text elements
+
+body,
+ol, ul, li,
+dl, dt, dd,
+address,
+blockquote, pre, code, kbd, samp, cite, q,
+figcaption,
+sub, sup, small,
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0; padding: 0;
+  // font: italic bold .8em/1.2 Arial, sans-serif;
+  font: $f_default;
+  @if $config_add_rem_units {
+    font-size: #{$f_default_size/16}rem;
+  }
+  text-align: left;
+  color: $f_default_color;
+}
+
+//
+// General forms
+//
+
+button, input, select, textarea, fieldset, legend, label, select {
+  font: $f_default;
+  @if $config_add_rem_units {
+    font-size: #{$f_default_size/16}rem;
+  }
+  text-align: left;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+i,
+em,
+dfn {
+  font-style: italic;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+mark {
+  background: #fcf8e3;
+  color: #000;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font: $f_mono;
+}
+
+pre {
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+q {
+  quotes: none;
+  &:before,
+  &:after {
+    content: '';
+    content: none;
+  }
+}
+
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+//
+// Links por defecto
+//
+
+a {
+  &:link,
+  &:visited,
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+//
+// Listas
+//
+ul, ol, li {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* =ESTILOS POR DEFECTO */
+/* ul li { list-style: disc outside; }*/
+/* ol li { list-style: decimal outside; }*/

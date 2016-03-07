@@ -1,0 +1,16 @@
+//
+// Tipografia
+//
+
+// Config settings
+$config_add_rem_units: true;
+
+// Default forn properties
+$f_default_size: 16; // px
+$f_default_line_height: 135%; // Unit you want
+$f_default_color: #333;
+
+// Font families
+$f_default: normal 400 #{$f_default_size}px/#{$f_default_line_height} 'Times New Roman', Times, serif;
+$f_other: normal 400 #{$f_default_size}px/#{$f_default_line_height} Helvetica, Arial, sans-serif;
+$f_mono:  normal 400 #{$f_default_size}px/#{$f_default_line_height} monospace;
