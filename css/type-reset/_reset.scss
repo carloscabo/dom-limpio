@@ -28,18 +28,6 @@ p, h1, h2, h3, h4, h5, h6 {
   color: $f_default_color;
 }
 
-//
-// General forms
-//
-
-button, input, select, textarea, fieldset, legend, label, select {
-  font: $f_default;
-  @if $config_add_rem_units {
-    font-size: #{$f_default_size/16}rem;
-  }
-  text-align: left;
-}
-
 b,
 strong {
   font-weight: 700;
