@@ -11,6 +11,9 @@
     #tests-elements {
       width: 1024px;
     }
+    .row {
+      padding-bottom: 16px;
+    }
   </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
@@ -154,25 +157,55 @@
 
   <form action="">
     <fieldset>
-      <legend> legend. Reprehenderit soluta, modi velit. </legend><br>
-      <label for="">label. Blanditiis cum itaque enim</label><br>
-      <input type="text" value="consectetur adipisicing elit. Amet consectetur at"><br>
-      <textarea name="name" rows="8" cols="40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum itaque enim, illo, magnam rem ratione asperiores autem commodi quisquam.</textarea><br>
-      <select name="" id="">
-        <option value="">Lorem ipsum</option>
-        <option value="">Dolor sit amet</option>
-        <option value="">Consectetur</option>
-        <option value="">Adipisicing elit</option>
-      </select><br>
-      <label><input type="checkbox" name="" id=""> checkbox. Ipsum dolor sit amet</label><br>
-      <fieldset>
-        <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
-        <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
-        <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
-      </fieldset>
-      <input type="button" value="button. Lorem ipsum dolor sit amet, consectetur">
-      <input type="submit" value="submit. Lorem ipsum dolor sit amet, consectetur">
-      <input type="reset" value="reset. Lorem ipsum dolor sit amet, consectetur">
+      <legend> legend. Reprehenderit soluta, modi velit. </legend>
+      <div class="row">
+        <label for="">label. Blanditiis cum itaque enim</label>
+      </div>
+      <div class="row">
+        <input type="text" value="consectetur adipisicing elit. Amet consectetur at">
+      </div>
+      <div class="row">
+        <textarea name="name" rows="8" cols="40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum itaque enim, illo, magnam rem ratione asperiores autem commodi quisquam.</textarea>
+      </div>
+      <div class="row">
+        <select name="" id="">
+          <optgroup label="Group 1">
+            <option value="">Lorem ipsum</option>
+            <option value="">Dolor sit amet</option>
+            <option value="">Consectetur</option>
+            <option value="">Adipisicing elit</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option value="">Lorem ipsum</option>
+            <option value="">Dolor sit amet</option>
+            <option value="">Consectetur</option>
+            <option value="">Adipisicing elit</option>
+          </optgroup>
+        </select>
+
+        <select name="" id="">
+          <option value="">Lorem ipsum</option>
+          <option value="">Dolor sit amet</option>
+          <option value="">Consectetur</option>
+          <option value="">Adipisicing elit</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label><input type="checkbox" name="" id=""> checkbox. Ipsum dolor sit amet</label>
+      </div>
+      <div class="row">
+        <fieldset>
+          <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
+          <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
+          <label><input type="radio" name="radio" id="radio"> radio. Ipsum dolor sit amet</label>
+        </fieldset>
+      </div>
+      <div class="row">
+        <input type="button" value="button. Lorem ipsum dolor sit amet, consectetur">
+        <input type="submit" value="submit. Lorem ipsum dolor sit amet, consectetur">
+        <input type="reset" value="reset. Lorem ipsum dolor sit amet, consectetur">
+      </div>
     </fieldset>
   </form>
 
