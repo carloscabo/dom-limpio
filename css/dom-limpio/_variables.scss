@@ -3,14 +3,14 @@
 //
 
 // Config settings
-$config_add_rem_units: true !default;
+$dl-add-rem-units: true !default;
 
 // Default forn properties
-$f_default_size: 16 !default; // px
-$f_default_line_height: 135% !default; // Unit you want
-$f_default_color: #333 !default;
+$dl-f-size: 16 !default; // px
+$dl-f-line-height: 135% !default; // Unit you want
+$dl-f-color: #333 !default;
 
 // Font families
-$f_default: normal 400 #{$f_default_size}px/#{$f_default_line_height} 'Times New Roman', Times, serif !default;
-$f_other: normal 400 #{$f_default_size}px/#{$f_default_line_height} Helvetica, Arial, sans-serif !default;
-$f_mono:  normal 400 #{$f_default_size}px/#{$f_default_line_height} monospace !default;
+$dl-fam-general: normal 400 #{$dl-f-size}px/#{$dl-f-line-height} 'Times New Roman', Times, serif !default;
+$dl-fam-other: normal 400 #{$dl-f-size}px/#{$dl-f-line-height} Helvetica, Arial, sans-serif !default;
+$dl-fam-mono:  normal 400 #{$dl-f-size}px/#{$dl-f-line-height} monospace !default;

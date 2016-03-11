@@ -24,13 +24,13 @@ sub, sup, small,
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0; padding: 0;
   // font: italic bold .8em/1.2 Arial, sans-serif;
-  font: $f_default;
-  @if $config_add_rem_units {
-    font-size: #{$f_default_size/16}rem;
+  font: $dl-fam-general;
+  @if $dl-add-rem-units {
+    font-size: #{$dl-f-size/16}rem;
   }
   text-align: left;
   vertical-align: baseline;
-  color: $f_default_color;
+  color: $dl-f-color;
 }
 
 b,
@@ -62,7 +62,7 @@ pre,
 code,
 kbd,
 samp {
-  font: $f_mono;
+  font: $dl-fam-mono;
 }
 
 pre {
