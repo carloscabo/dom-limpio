@@ -1,0 +1,109 @@
+/*
+  base-reset
+  Combine with type-reset.scss to fix typo issues
+*/
+
+html, body {
+  box-sizing: border-box;
+
+  /* Disable horizontal scrollbar */
+  -ms-overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Base reset of margins + paddings */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0; padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+
+  /* Remove outline color in some Android */
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+
+/* Set block for HTML5 elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+hr,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Correct display for IE 9 */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Abreviatures and definitions */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* Force hidden of elements */
+[hidden],
+template {
+  display: none;
+}
+
+/* Images */
+img {
+  margin-bottom: -0.285em; /* Removes extra margin */
+  border: 0;
+}
+
+/* SVG */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Reset cursor on any element disabled  */
+[disabled] {
+  cursor: default;
+}
+
+/* Base <hr> customize color on your project */
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  /* border-color: #f00; */
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

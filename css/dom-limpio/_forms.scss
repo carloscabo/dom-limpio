@@ -1,0 +1,43 @@
+//
+// General forms
+//
+
+button, input, select, textarea, fieldset, legend, label, select {
+  font: $f_default;
+  text-align: left;
+  text-transform: none;
+  @if $config_add_rem_units {
+    font-size: #{$f_default_size/16}rem;
+  }
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+input, select {
+  line-height: normal;
+  vertical-align: middle;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+textarea {
+  overflow: auto;
+}

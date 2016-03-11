@@ -1,2 +1,2 @@
-# type-reset.css
-Custom typography reset in SASS
+# dom-limpio
+Modern styles reset, with typography, forms, and layout...
