@@ -4,15 +4,13 @@
 */
 
 html, body {
-  box-sizing: border-box;
-
   /* Disable horizontal scrollbar */
   -ms-overflow-x: hidden;
   overflow-x: hidden;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 
