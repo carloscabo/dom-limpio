@@ -9,10 +9,7 @@ html {
   // font-feature-settings: none;
 }
 
-//
-//
-// General text elements
-
+// Genral properties
 body,
 ol, ul, li,
 dl, dt, dd,
@@ -23,15 +20,13 @@ figcaption,
 sub, sup, small,
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0; padding: 0;
-  // font: italic bold .8em/1.2 Arial, sans-serif;
-  font: $dl-fam-general;
-  @if $dl-add-rem-units {
-    font-size: #{$dl-f-size/16}rem;
-  }
+  font: 400 1em/135% serif;
   text-align: left;
   vertical-align: baseline;
-  color: $dl-f-color;
+  color: #333;
 }
+
+// Reset of type elements
 
 b,
 strong {
@@ -62,7 +57,7 @@ pre,
 code,
 kbd,
 samp {
-  font: $dl-fam-mono;
+  font: monospace;
 }
 
 pre {

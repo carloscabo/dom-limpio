@@ -2,6 +2,24 @@
 // Default styles to the site
 // If you want to define some defaulst yo the whole site do it here
 
+// General text elements
+
+body,
+ol, ul, li,
+dl, dt, dd,
+address,
+abbr, dfn,
+blockquote, pre, code, kbd, samp, cite, q,
+figcaption,
+sub, sup, small,
+p, h1, h2, h3, h4, h5, h6 {
+  font: $dl-font-general;
+  @if $dl-add-rem-units {
+    font-size: #{$dl-f-size/16}rem;
+  }
+  color: $dl-f-color;
+}
+
 // h1,
 .h1 {
   $size: 36; // px

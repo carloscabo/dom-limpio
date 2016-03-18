@@ -3,12 +3,9 @@
 //
 
 button, input, select, textarea, fieldset, legend, label, select {
-  font: $dl-fam-general;
+  font: 400 1em/135% serif;
   text-align: left;
   text-transform: none;
-  @if $dl-add-rem-units {
-    font-size: #{$dl-f-size/16}rem;
-  }
 }
 
 button,

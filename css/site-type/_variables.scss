@@ -1,0 +1,23 @@
+//
+// Tipografia
+//
+
+// Config settings
+$dl-add-rem-units: true !default;
+
+// Default forn properties
+$dl-f-size: 16 !default; // px
+$dl-f-line-height: 135% !default; // Unit you want
+$dl-f-color: #333 !default;
+
+// Families only
+// font-family: $dl-fam-general;
+$dl-fam-general: 'Times New Roman', Times, serif !default;
+$dl-fam-other: Helvetica, Arial, sans-serif !default;
+$dl-fam-mono: monospace !default;
+
+// Font declarations
+// font: $dl-font-general;
+$dl-font-general: normal 400 #{$dl-f-size}px/#{$dl-f-line-height} $dl-fam-general;
+$dl-font-other: normal 400 #{$dl-f-size}px/#{$dl-f-line-height} $dl-fam-other;
+$dl-font-mono: normal 400 #{$dl-f-size}px/#{$dl-f-line-height} $dl-fam-mono;
