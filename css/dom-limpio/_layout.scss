@@ -79,7 +79,7 @@ template {
 /* Images */
 img {
   margin-bottom: -0.285em; /* Removes extra margin */
-  border: 0;
+  border: 0 none;
 }
 
 /* SVG */
@@ -97,6 +97,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid;
+  overflow: visible;
   /* border-color: #f00; */
 }
 
