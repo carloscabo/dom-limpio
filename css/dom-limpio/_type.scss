@@ -7,6 +7,10 @@ html {
   text-rendering: optimizeLegibility;
   // font-variant-ligatures: none;
   // font-feature-settings: none;
+  font: 400 1em/1.35 serif;
+  text-align: left;
+  vertical-align: baseline;
+  color: #333;
 }
 
 // Genral properties
@@ -19,9 +23,11 @@ blockquote, pre, code, kbd, samp, cite, q,
 figcaption,
 sub, sup, small,
 p, h1, h2, h3, h4, h5, h6 {
-  text-align: left;
-  vertical-align: baseline;
-  font: 400 1em/1.35 serif;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
   color: #333;
 }
 
