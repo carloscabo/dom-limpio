@@ -1,7 +1,7 @@
 
 # dom-limpio
 
-<img src="dom-limpio-logo.png" alt="dom-limpio-logo.png" align="left" style="float:left;margin-right:20px;margin-bottom:20px;">
+<img src="dom-limpio-logo.png" alt="dom-limpio-logo.png" align="left" style="float:left;margin-right:20px;margin-bottom:40px;">
 
 Nuestro propio reset de CSS cogiendo las ideas que más nos interesan de las diferentes fuentes (Normalize 4, HTML5 Doctor... ) e intentando añadir nuestras propias necesidades (lo que solemos emplear por defecto en los proyectos, y algunas cosas que necesitamos recurrentemente, especialmente en _mobile_).
 
