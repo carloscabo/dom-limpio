@@ -32,6 +32,11 @@ input[type="search"] {
   }
 }
 
+button,
+input[type="submit"] {
+  -webkit-appearance: button;
+}
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
