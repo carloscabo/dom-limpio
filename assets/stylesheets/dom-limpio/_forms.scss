@@ -24,6 +24,10 @@ textarea {
 input, select {
   line-height: normal;
   vertical-align: middle;
+  /* Remove webkit focus border */
+  &:focus {
+    outline: 0;
+  }
   /* Fix webkit placeholder vertical position */
   &::-webkit-input-placeholder { 
     line-height: normal;
