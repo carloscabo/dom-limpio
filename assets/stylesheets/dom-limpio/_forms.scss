@@ -24,6 +24,10 @@ textarea {
 input, select {
   line-height: normal;
   vertical-align: middle;
+  /* Fix webkit placeholder vertical position */
+  &::-webkit-input-placeholder { 
+    line-height: normal;
+  }
 }
 
 input[type="search"] {
