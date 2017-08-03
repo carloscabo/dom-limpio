@@ -3,6 +3,13 @@
   "version": "0.1.2",
   "description": "CSS hard styles reset",
   "main": "assets/stylesheets/dom-limpio.scss",
+  "style": "assets/stylesheets/dom-limpio.scss",
+  "eyeglass": {
+    "sassDir": "assets/stylesheets",
+    "exports": false,
+    "name": "dom-limpio",
+    "needs": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +21,8 @@
     "sass",
     "css",
     "normalize",
-    "reset"
+    "reset",
+    "eyeglass"
   ],
   "author": "Carlos Cabo <carloscabo@gmail.com> (http://carloscabo.com)",
   "contributors": [
