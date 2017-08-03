@@ -1,0 +1,9 @@
+/* Include the modules your need for your project */
+@import "dom-limpio/layout";      // Base layout reset
+@import "dom-limpio/type";        // Typography reset
+@import "dom-limpio/forms";       // Form reset
+
+/* Define generice type styles for the project here */
+@import "site-type/variables"; // Common variables
+@import "site-type/weft";      // External font
+@import "site-type/sample";    // Generic type styles for your site
